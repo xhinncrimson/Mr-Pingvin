@@ -1,0 +1,101 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr. Pingvin</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Mr. Pingvin</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#values">Values</a></li>
+            <li><a href="#how">How to Build Values</a></li>
+            <li><a href="#quest">Quest</a></li>
+            <li><a href="#bible-verses">Bible Verses</a></li>
+        </ul>
+    </nav>
+
+    <section class="content" id="about">
+        <h2>About Us</h2>
+        <p>Mr. Pingvin is dedicated to developing students academically and morally to prepare them for a meaningful life.</p>
+        <h3>Mission</h3>
+        <p>To nurture the core values and promote appropriate behavior of every student at St. Jude Parish School.</p>
+        <p>To develop a society where students show respect and integrity, guiding students to reflect on their actions.</p>
+        <p>To foster a community that appreciates the practice of personal growth and development.</p>
+        <p>To practice proper and respectful behavior not just within the school community but also in the wider community.</p>
+
+        <h3>Vision</h3>
+        <p>We envision a learning environment where every student values respect, kindness, and personal growth, applying these principles in their daily lives.</p>
+    </section>
+
+    <section class="content" id="values">
+        <h2>What are Values?</h2>
+        <p>Values are principles that guide actions and decisions, shaping individuals into responsible and empathetic members of society.</p>
+    </section>
+
+    <section class="content" id="how">
+        <h2>How Can We Build Strong Values?</h2>
+        <ul>
+            <li>Lead by example – Show honesty, kindness, and respect.</li>
+            <li>Encourage reflection – Help students think about their actions.</li>
+            <li>Promote responsibility – Assign tasks that teach accountability.</li>
+            <li>Use real-life lessons – Apply values in everyday situations.</li>
+        </ul>
+    </section>
+
+    <section class="content" id="reminders">
+        <h2>Why Are Values Important?</h2>
+        <p>Values shape our character and define how we interact with others. They help us make ethical decisions and contribute positively to society.</p>
+    </section>
+
+    <section class="content" id="quest">
+        <h2>Quest Generator</h2>
+        <p id="quest-text">Click below to generate a quest!</p>
+        <button id="quest-button">Generate Quest</button>
+    </section>
+
+    <section class="content" id="bible-verses">
+        <h2>Bible Verses</h2>
+        <p><b>Proverbs 22:6</b> - "Train up a child in the way he should go; even when he is old he will not depart from it."</p>
+        <p><b>Philippians 4:8</b> - "Whatever is true, whatever is noble, whatever is right, whatever is pure, whatever is lovely, whatever is admirable--if anything is excellent or praiseworthy--think about such things."</p>
+        <p><b>Matthew 5:16</b> - "Let your light shine before others, that they may see your good deeds and glorify your Father in heaven."</p>
+        <p><b>Colossians 3:23</b> - "Whatever you do, work at it with all your heart, as working for the Lord, not for human masters."</p>
+    </section>
+</body>
+</html>
+<style>body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    font-size: 2.5em;
+    font-family: 'Playfair Display', serif;
+}
+
+nav {
+    background-color: #34495e;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+... (115 lines left)
